@@ -17,7 +17,7 @@ function App() {
   const [image,setImage] = useState('');
 
   function saveFile(){
-    saveAs(image, "convite.png");
+    saveAs(image, "imagejoin.png");
   }
 
   mergeImages([
